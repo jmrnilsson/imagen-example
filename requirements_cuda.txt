@@ -1,4 +1,5 @@
 # https://github.com/pypa/pip/issues/8606
+# https://pytorch.org/
 -i https://download.pytorch.org/whl/cu113
 torch~=1.12.0
 torchvision~=0.13.0
