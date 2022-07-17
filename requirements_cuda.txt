@@ -1,6 +1,9 @@
 # https://github.com/pypa/pip/issues/8606
 # https://pytorch.org/
--i https://download.pytorch.org/whl/cu113
-torch~=1.12.0
-torchvision~=0.13.0
-torchaudio~=0.12.0
+# https://github.com/pypa/pipenv/issues/5022
+# https://download.pytorch.org/whl/torch_stable.html
+# https://stackoverflow.com/questions/66858277/could-not-find-a-version-that-satisfies-the-requirement-torch-1-7-0cpu
+-i https://download.pytorch.org/whl/cu116
+torch==1.12.0+cu116
+torchvision==0.13.0+cu116
+torchaudio==0.12.0+cu116
